@@ -1,0 +1,20 @@
+body
+{
+    background-color: black;
+}
+
+img
+{
+    max-height: 30px;
+}
+
+#div_header
+{
+    text-align: right;
+}
+
+.main_portfolio, .footer_portfolio
+{
+    width: 100%;
+    text-align: center;
+}
