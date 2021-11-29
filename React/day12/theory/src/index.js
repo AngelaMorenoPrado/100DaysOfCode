@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Student from './formStudent/FormStudent';
+import StudentFull from './formStudentFull/FormStudentFull'
 
 class App extends React.Component
 {
@@ -32,6 +33,7 @@ class App extends React.Component
             <h1>{this.state.firstName}</h1>
         </div>
         <Student />
+        <StudentFull />
       </div>
     )
   }
